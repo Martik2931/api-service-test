@@ -23,11 +23,10 @@ eureka:
       defaultZone: http://localhost:8761/eureka/
     fetch-registry: true
     register-with-eureka: true
-    # Add this in case of network issues
     healthcheck-url: /actuator/health
 
 jwt:
-  secret: mySecretKey1234567890123456  # Ensure this exists (At least 32 characters recommended)
+  secret: mySecretKey1234567890123456
 
 
 springdoc:
